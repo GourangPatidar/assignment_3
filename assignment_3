@@ -1,1 +1,67 @@
-                       rjhrg yfffyuifhrfhurfhhf fh fhg
+Q1
+through the function we can call a specific code again and again in a single line.
+___________________________________________________________________________________________________
+
+Q2
+the code in a function run when only it is called. the code in a function executes when it is called.
+__________________________________________________________________________________________________________________
+
+
+Q3
+def statement creates a functon or specify a code.
+__________________________________________________________________
+
+
+Q4
+A function generally takes parameters not always and return a result. a function call is the which
+gives control to the function.
+______________________________________________________________________________________________________
+
+
+Q5
+there are only one global scopes per program execution .And the number of local scopes are unlimited.
+____________________________________________________________________________________________________________
+
+Q6
+in a function a local variable can not call outside the function.
+_________________________________________________________________________________
+
+Q7
+A return statement is used to end the execution of the function call and “returns” the result (value of the expression following the return keyword) to the caller.
+The statements after the return statements are not executed.
+If the return statement is without any expression, then the special value None is returned.
+________________________________________________________________________________
+
+
+Q8
+nothing , will be executed, None
+__________________________________________________________________________
+
+
+Q9
+by making a variable outside a function it is called a global variable
+___________________________________________________________________________________
+
+
+Q10
+None type
+____________________________________________________________________________________
+
+Q11
+imports a module named areallyourpetsnamederic.
+______________________________________________________________________________________
+
+Q12
+this function can be called with spam.becon()
+_______________________________________________________________________________________
+
+Q13
+we use try and except clause to handle an arror
+_______________________________________________________________________________________
+
+
+Q14
+The puppose of 'try' clause is to cheak whether error is occured in it or not. If occured then give control to the
+"except" clause
+the purpose of 'except' clause is to handle the error without stop the program.
+_________________________________________________________________________________________________
