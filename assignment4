@@ -1,0 +1,90 @@
+Q1
+this is a list.list is a data structure which is mutable.
+which can store all types of data.
+__________________________________________________________________________________
+
+Q2
+list1=[2, 4, 6, 8, 10]
+list1.insert(2, 'hello')
+___________________________________________________________________________________
+
+Q3
+now our list1 is list1=[2, 4,'hello', 6, 8, 10]
+list1[int(int('3' * 2) / 11)]
+answer is list[3]
+6
+____________________________________________________________________________________
+
+
+Q4
+10
+_________________________________________________________________________________
+
+Q5
+[2,4]
+____________________________________________________________________________________
+
+Q6
+bacon=[3.14,'cat', 11, 'cat' , True]
+answer=1
+___________________________________________________________________________________
+
+Q7
+bacon.append(99)
+bacon
+[3.14,'cat', 11, 'cat' , True , 99]
+_________________________________________________________________________________
+
+Q8
+[3.14, 11, 'cat' , True , 99]
+___________________________________________________________________________________
+
+Q9
+the operator of list concatination is "+"
+and the operator of list replication is "*"
+__________________________________________________________________________________
+
+Q10
+append function=it adds a value in last index of a list
+insert function = it adds a value in given index
+the syntax is list.insert(2,"hello")
+it adds a "hello" at index =2
+_____________________________________________________________________________________
+
+Q11
+the two functions are:
+1. list.pop(2) = it remove a value at index 2
+2. list.remove("cat")= it removes "cat" from the list of first occcurance
+____________________________________________________________________________________
+
+Q12
+Lists are similar to strings, which are ordered collections of characters,
+except that the elements of a list can have any type and for any one list, the items can be of different types.
+
+Q13
+the list is mutable data structure wherese tuple is immutable data structure
+tuples are more memory efficient than list.
+____________________________________________________________________________________
+
+Q14
+tuple=(42,)
+____________________________________________________________________________________
+
+Q15
+changing list to tuple
+tuple1=tuple(list1)
+
+changing tuple to list
+list2=list(tuple2)
+__________________________________________________________________________________
+
+Q16
+Variables will contain references to list values rather than list values themselves.
+But for strings and integer values, variables simply contain the string or integer value.
+____________________________________________________________________________________
+
+
+Q17
+the function copy() means if we changes the copied item then our original item also changes
+the function deepcopy() means if we changes the copied iten our original item remains same nothing changes.
+________________________________________________________________________________________
