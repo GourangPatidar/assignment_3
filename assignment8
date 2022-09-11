@@ -1,0 +1,30 @@
+Q1
+pyinputplus is not a part of a python standard library. to use it you have to download through pip command.
+_________________________________________________________________________________
+
+Q2
+because to save the time in typing we use alias
+_________________________________________________________________________________
+
+Q3
+inputint() takes integer values while,
+inputFloat() takes floating point numbers as a values
+___________________________________________________________________________________
+
+Q4
+we insure that user enters a whole number between 0 and 99 through the min , and max parameters of a inputint() function
+_________________________________________________________________________________
+
+Q5
+ We can also use regular expressions to specify whether an input is allowed or not.
+ The allowRegexes and blockRegexes keyword arguments take a list of regular expression strings to determine what the PyInputPlus function will accept or reject as valid input.
+___________________________________________________________________________________
+
+Q6
+it gives an error called a RetryLimitException.
+__________________________________________________________________________________
+
+
+Q7
+it takes a deflaut value ('hello' given) as an input.
+________________________________________________________________________________
