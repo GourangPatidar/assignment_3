@@ -1,0 +1,49 @@
+Q1
+to insert characters that are illegal in string , use an escape characters.
+an escape characters is a backslash \ followed by the characters you want to insert.
+_________________________________________________________________________
+
+Q2
+\n stands for New line
+\t stands for Tab
+_________________________________________________________________________
+
+Q3
+by using a \\ (a double backslash)
+_________________________________________________________________________
+
+Q4
+because we use double quotes to represent a string so we can use single quotes inside it.
+________________________________________________________________________
+
+Q5
+by using ''' _______''' (triple single quotes )
+_________________________________________________________________________
+
+Q6
+'Hello, world!'[1] == 'e'
+'Hello, world!'[0:5] == 'Hello'
+'Hello, world!'[:5] == 'Hello'
+'Hello, world!'[3:] == 'lo, world!'
+_____________________________________________________________________________
+
+Q7
+'Hello'.upper() == 'HELLO'
+'Hello'.upper().isupper() == 'True'
+'Hello'.upper().lower() == 'hello'
+_____________________________________________________________________________
+
+Q8
+'Remember, remember, the fifth of July.'.split() == ['Remember,', 'remember,', 'the', 'fifth', 'of', 'July.']
+'-'.join('There can only one'.split()) == 'There-can-only-one'
+__________________________________________________________________________
+
+Q9
+str.ljust(len , fillchar) -----> left alignment of a string with  len of string and fillchar with charcaters to fill in whitespaces
+str.rjust( len , fillchar) -----> right alignment of a string with  len of string and fillchar with charcaters to fill in whitespaces
+str.center(len , fillchar) -----> center alignment of a string with  len of string and fillchar with charcaters to fill in whitespaces
+_______________________________________________________________________________
+
+Q10
+by using a function called string.strip()
+______________________________________________________________________________
