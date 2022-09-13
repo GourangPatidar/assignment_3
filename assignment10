@@ -16,6 +16,7 @@ ________________________________________________________________________________
 Q4
 ZipFile Module provides a method called as zipfile.ZipFile() to read and write to zipFiles.
 it takes arugments lile filename and mode etc zipfile.ZipFile('filename', mode = 'r')
+
 _________________________________________________________________________________
 
 
