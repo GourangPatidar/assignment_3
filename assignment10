@@ -1,0 +1,22 @@
+Q1
+While shutil. copy() will copy a single file.
+copytree() will copy an entire folder and every folder and file contained in it.
+_________________________________________________________________________________
+
+Q2
+os.rename() method in Python is used to rename a file .
+This method renames a source file/ directory to specified destination file/directory.
+________________________________________________________________________________
+
+Q3
+The send2trash functions will move a file or folder to the recycle bin,
+while shutil functions will permanently delete files and folders.
+_________________________________________________________________________________
+
+Q4
+ZipFile Module provides a method called as zipfile.ZipFile() to read and write to zipFiles.
+it takes arugments lile filename and mode etc zipfile.ZipFile('filename', mode = 'r')
+_________________________________________________________________________________
+
+
+
