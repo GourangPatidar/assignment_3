@@ -1,70 +1,100 @@
 Q1
-
+re.compile() is the feature responsible for generation of Regex objects.
 _________________________________________________________________________________
 
 Q2
-
+Regular expressions use the backslash character ('\') to indicate special forms (Metacharacters) or to allow special characters (speical sequences) to be used without invoking their special meaning.
+This collides with Python’s usage of the same character for the same purpose in string literals. Hence, Raw strings are used (e.g. r"\n") so that backslashes do not have to be escaped.
 ________________________________________________________________________________
 
 Q3
-
+The return value of re.search(pattern,string) method is a match object if the pattern is observed in the string else it returns a None
 _________________________________________________________________________________
 
 Q4
+ For Matched items group() methods returns actual strings that match the pattern
 _________________________________________________________________________________
 
 Q5
+n the Regex r'(\d\d\d)-(\d\d\d-\d\d\d\d)' the zero group covers the entire pattern match where as the first group cover (\d\d\d) and the second group cover (\d\d\d-\d\d\d\d)
 ___________________________________________________________________________________
 
 Q6
+The \. \( and \) escape characters in the raw string passed to re.compile() will match actual parenthesis characters.
 __________________________________________________________________________________
 
 
 Q7
+ If the regex pattern has no groups, a list of strings matched is returned. if the regex pattern has groups, a list of tuple of strings is returned.
 ________________________________________________________________________________
 
 Q8
+ In Standard Expressions | means OR operator.
 _________________________________________________________________________________
 
 Q9
+In regular Expressions, ? characters represents zero or one match of the preceeding group.
 _________________________________________________________________________________
 
 Q10
+ In Regular Expressions, * Represents Zero ore more occurances of the preceeding group,
+ whereas + represents one or more occurances of the preceeding group.
 ___________________________________________________________________________________
 
 Q11
+{4} means that its preceeding group should repeat 4 times. where as {4,5} means that its preceeding group should repeat mininum 4 times and maximum 5 times inclusively
 __________________________________________________________________________________
 
 Q12
+ \d, \w and \s are special sequences in regular expresssions in python:
+
+1. \w – Matches a word character equivalent to [a-zA-Z0-9_]
+2. \d – Matches digit character equivalent to [0-9]
+3. \s – Matches whitespace character (space, tab, newline, etc.)
 _________________________________________________________________________________
 
 Q13
+\D, \W and \S are special sequences in regular expresssions in python:
+
+1. \W – Matches any non-alphanumeric character equivalent to [^a-zA-Z0-9_]
+2. \D – Matches any non-digit character, this is equivalent to the set class [^0-9]
+3. \S – Matches any non-whitespace character
 ________________________________________________________________________________
 
 Q14
+.* is a Greedy mode, which returns the longest string that meets the condition. Whereas .*? is a non greedy mode which returns the shortest string that meets the condition.
 _________________________________________________________________________________
 
 Q15
+The Synatax is Either [a-z0-9] or [0-9a-z]
 _________________________________________________________________________________
 
 Q16
+We can pass re.IGNORECASE as a flag to make a noraml expression case insensitive
 ___________________________________________________________________________________
 
 Q17
+Dot . character matches everything in input except newline character .. By passing re.DOTALL as a flag to re.compile(),
+you can make the dot character match all characters, including the newline character.
 __________________________________________________________________________________
 
 
 Q18
+The Ouput will be 'X drummers, X pipers, five rings, X hen'
 ________________________________________________________________________________
 
 Q19
+re.VERBOSE will allow to add whitespace and comments to string passed to re.compile().
 _________________________________________________________________________________
 
 Q20
+'42','1,234', '6,368,745'but not the following: '12,34,567' (which has only two digits between the commas) '1234' (which lacks commas)
 _________________________________________________________________________________
 
 Q21
+pattern = r'[A-Z]{1}[a-z]*\sWatanabe'
 ___________________________________________________________________________________
 
 Q22
+pattern = r'(Alice|Bob|Carol)\s(eats|pets|throws)\s(apples|cats|baseballs)\.'
 __________________________________________________________________________________
