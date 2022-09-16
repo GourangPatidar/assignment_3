@@ -1,0 +1,44 @@
+Q1
+RGBA is a four-channel format containing data for Red, Green, Blue, and an Alpha value. Where Alpha Represents the Opacity
+_________________________________________________________________________________
+
+
+Q2
+ImageColor.getcolor() gives rgba value of any image
+_________________________________________________________________________________
+
+
+Q3
+A box tuple is a tuple value of four integers: the left-edge x-coordinate, the top-edge y-coordinate,the width, and the height, respectively.
+_______________________________________________________________________________
+
+
+Q4
+from PIL import Image
+img=Image.open("gourang.jpg")
+print(img.size)
+_______________________________________________________________________________
+
+
+Q5
+img = Image.open('Pic.jpg')
+new_img = img.crop((0,50,50,50))
+______________________________________________________________________________
+
+
+Q6
+from PIL import Image
+pic = Image.open('pic.jpg')
+pic.save('pic2.jpg')
+_________________________________________________________________________________
+
+
+Q7
+Pillows ImageDraw module contains Shape drawing methods
+_________________________________________________________________________________
+
+
+Q8
+ImageDraw objects have shape-drawing methods such as point(), line(), or rectangle().
+They are returned by passing the Image object to the ImageDraw.Draw() function.
+_______________________________________________________________________________
