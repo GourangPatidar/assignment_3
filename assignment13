@@ -1,0 +1,41 @@
+Q1
+The Advantages of Excel over CSV are:
+
+1. Excel (XLS and XLSX) file formats are better for storing and analysing complex data.
+2. An Excel not only stores data but can also do operations on the data using macros, formulas etc
+3. CSV files are plain-text files, Does not contain formatting, formulas, macros, etc. It is also known as flat files
+_________________________________________________________________________________
+
+
+Q2
+that file name which you want to read or write.
+_________________________________________________________________________________
+
+
+Q3
+for csv.reader mode is mode ='r'
+for csv.writer mode is mode ='w'
+_______________________________________________________________________________
+
+
+Q4
+ csv.writer class provides two methods for writing to CSV. They are writerow() and writerows().
+ writerow() method writes a single row at a time. Whereas writerows() method is used to write multiple rows at a time.
+______________________________________________________________________________
+
+
+
+Q5
+Here ',' is Delimiter. We can use any Character as per our needs if required.
+Similarly Line Terminator comes at end of line by default it is newline and can be changed accourding to Requirement.
+_______________________________________________________________________________
+
+
+Q6
+loads() method takes a string of JSON data and returns a Python data structure
+_________________________________________________________________________________
+
+
+Q7
+dumps() method takes a python data structure and returns a string of JSON data
+_________________________________________________________________________________
